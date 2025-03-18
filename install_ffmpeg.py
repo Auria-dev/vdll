@@ -75,12 +75,17 @@ def install_ffmpeg():
     else:
         raise OSError(f"unsupported operating system: {system}")
 
+import subprocess
+
 def check_ffmpeg_installed():
     try:
         subprocess.run(["ffmpeg", "-version"], check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        print("ffmpeg is already installed.")
+        print("FFmpeg is installed!")
+    except FileNotFoundError:
+        print("FFmpeg is not installed or not in the system PATH.")
+        install_ffmpeg()
     except subprocess.CalledProcessError:
-        print("ffmpeg is not installed. Installing...")
+        print("FFmpeg is installed, but there was an error running it. Trying to reinstall it...")
         install_ffmpeg()
 
 if __name__ == "__main__":
