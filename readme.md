@@ -2,7 +2,7 @@
 
 ### A minimal right-click video converter using FFMPEG 
 
-why? because its convinient. most people don’t want to touch a command prompt, even if it takes two seconds.
+why? because its convenient. most people don’t want to touch a command prompt, even if it takes two seconds.
 so instead of using an ad-riddled online converter or having to spend hours re-exporting a file in your editor, just right-click your video and wait a few seconds.
 
 ![image of the context menu](img.png)
