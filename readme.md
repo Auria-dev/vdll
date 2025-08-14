@@ -9,11 +9,11 @@ so instead of using an ad-riddled online converter or having to spend hours re-e
 
 ## Installation
 
-1. download install_vdll.ps1.
-
-2. right-click → run with powershell → allow admin.
-
-3. done.
+1. anywhere on your computer, create a file `install_vdll.ps1`
+2. right-click the file, chose edit, and paste the content of [install.ps1](https://github.com/Auria-dev/vdll/blob/main/install.ps1) inside.
+3. save and close the file
+4. right-click it, select run with powershell, and allow admin privileges.
+5. done.
 
 ## Use
 
