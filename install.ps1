@@ -79,6 +79,6 @@ foreach ($ext in $baseExts) {
     }
 }
 
-Write-Host "`n`n`n`nInstallation complete, press any key to continue..."
-Write-Host "note: on windows 11, it might be under the 'show more options' menu."
+Write-Host "`n`n`nnote: on windows 11, it might be under the 'show more options' menu."
+Write-Host "Installation complete. Press any key to continue..."
 [void][System.Console]::ReadKey($true)
