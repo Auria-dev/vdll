@@ -7,7 +7,11 @@ so instead of using an ad-riddled online converter or having to spend hours re-e
 
 ![image of the context menu](img.png)
 
-## Installation
+## Automatic Installation
+
+soon :tm:
+
+## Manual installation
 
 1. anywhere on your computer, create a file `install_vdll.ps1`
 2. right-click the file, chose edit, and paste the content of [install.ps1](https://github.com/Auria-dev/vdll/blob/main/install.ps1) inside.
