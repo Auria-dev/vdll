@@ -9,7 +9,8 @@ so instead of using an ad-riddled online converter or having to spend hours re-e
 
 ## Automatic Installation
 
-soon :tm:
+1. Clone this repository
+2. Run the `vdll-install.bat` file inside
 
 ## Manual installation
 
